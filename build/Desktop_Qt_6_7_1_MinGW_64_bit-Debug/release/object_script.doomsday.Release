@@ -1,0 +1,13 @@
+release/cl.o
+release/dialog.o
+release/ds.o
+release/lv.o
+release/main.o
+release/gamepage.o
+release/tm.o
+release/qrc_image.o
+release/moc_cl.o
+release/moc_dialog.o
+release/moc_ds.o
+release/moc_gamepage.o
+release/moc_tm.o

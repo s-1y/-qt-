@@ -1,0 +1,13 @@
+debug/cl.o
+debug/dialog.o
+debug/ds.o
+debug/lv.o
+debug/main.o
+debug/gamepage.o
+debug/tm.o
+debug/qrc_image.o
+debug/moc_cl.o
+debug/moc_dialog.o
+debug/moc_ds.o
+debug/moc_gamepage.o
+debug/moc_tm.o

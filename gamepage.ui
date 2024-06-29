@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GamePage</class>
+ <widget class="QWidget" name="GamePage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>GamePage</string>
+  </property>
+  <widget class="QPushButton" name="startGamebt">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>470</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    font-family: &quot;微软雅黑&quot;;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    text-align: left center;
+    padding-left: 25px;
+    padding-top: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #900000;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0);
+</string>
+   </property>
+   <property name="text">
+    <string>开始游戏</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>240</y>
+     <width>161</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255,255,255,0.5);
+ color: white; 
+border: 3px solid #bb0003;
+ border-radius: 10px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image/image.qrc">
+     <normaloff>:/new/prefix1/bwl.png</normaloff>
+     <activeoff>:/new/prefix1/bwl2.png</activeoff>:/new/prefix1/bwl.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>108</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>240</y>
+     <width>161</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(0255,255,0255,0.5); color: white; border: 3px solid purple;
+border-radius: 10px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image/image.qrc">
+     <normaloff>:/new/prefix1/sjl.png</normaloff>
+     <activeoff>:/new/prefix1/sjl2.png</activeoff>
+     <activeon>:/new/prefix1/sjl2.png</activeon>:/new/prefix1/sjl.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>150</width>
+     <height>72</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>130</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:700; color:#000000;&quot;&gt;选择你的角色&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="startGamebt_2">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>470</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    font-family: &quot;微软雅黑&quot;;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    text-align: left center;
+    padding-left: 25px;
+    padding-top: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #900000;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0);
+</string>
+   </property>
+   <property name="text">
+    <string>游戏说明</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="startGamebt_3">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>470</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    font-family: &quot;微软雅黑&quot;;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    text-align: left center;
+    padding-left: 25px;
+    padding-top: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #900000;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0);
+</string>
+   </property>
+   <property name="text">
+    <string>关卡选择</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>101</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(0255,255,0255,0.5); color: white; border: 3px solid black;
+border-radius: 10px;
+font-family: &quot;微软雅黑&quot;;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string>返回主页</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>150</width>
+     <height>72</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="image/image.qrc"/>
+ </resources>
+ <connections/>
+</ui>
